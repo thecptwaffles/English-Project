@@ -1,0 +1,5 @@
+- add who is speaking in evidence 
+- add scroll animations 
+- add other styling 
+- add sections 
+- make explanations hidden untill button is pressed
