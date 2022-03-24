@@ -1,4 +1,4 @@
-- add who is speaking in evidence 
+    - add who is speaking in evidence @done
 - add scroll animations 
 - add other styling 
 - add sections 
