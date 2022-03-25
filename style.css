@@ -5,25 +5,50 @@
     --secClr: #004547;
     --accentClr: #BC0064;
     --fontClr: #00000000;
-}
-
-
-h1,
-p {
+    background-image: linear-gradient(90deg, var(--primClr), var(--secClr));
     font-family: var(--primFont);
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--secClr);
+}
+
+* {
+    margin: 0;
+}
+
 
 header,
 .evidence,
 .expln {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 header {
-    background-image: linear-gradient(90deg, var(--primClr), var(--secClr));
+    text-align: center;
 }
 
 nav {
     border: 5px solid var(--secClr);
+    margin-bottom: 15px;
+    background-color: var(--accentClr);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.nav {
+    color: black;
+    font-family: var(--primFont);
+    text-decoration: none;
+    font-size: 2rem;
 }
